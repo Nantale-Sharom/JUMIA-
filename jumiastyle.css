@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background: #dedede;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.navbar-wrap .top{
+    background-color: rgb(103, 102, 102);
+    height: 50px;
+    
+}
+.top{
+    display: flex;
+}
+nav{
+ background: rgb(255, 255, 255);
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px;
+}
+.sidebar ul {
+    padding: 30px;
+}
+.sidebar ul li{
+    margin-top: 20px;
+}
+.links{
+    display: flex;
+ gap: 20px;
+}
+.body-wrap{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 270px 1fr;
+    gap: 30px;
+    padding: 10px 30px 0 30px;
+    
+
+}
+.card-body{
+    padding: 30px;
+}
+.card-body,.sidebar{
+    background: #fff;
+}
+input{
+    padding: 10px;
+    height: 30px;
+    width: 300px;
+}
+.sbtn{
+    padding: 5px;
+    background-color: orange;
+}
+.card div img{
+    width: 100px;
+    height: 100px;
+}
+.card{
+    border: 1px solid #000;
+    margin-top: 10px;
+}
+.left{
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+}
+.detail-wrap{
+    padding: 20px;
+}
+.detail-wrap p{
+    line-height: 30px;
+}
+.orders{
+    display: flex;
+    margin-left: 10px;
+    padding: 20px;
+}
